@@ -1,0 +1,106 @@
+body {
+  font-family: "Andada Pro", serif;
+  font-family: "Tiro Bangla", serif;
+}
+
+h1 {
+  color: #173e43;
+  margin: 15px 30px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 20px 100px 2px 150px;
+  font-size: 34px;
+}
+h3 {
+  margin: 10px 200px 15px 170px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+.icon {
+  position: absolute;
+  top: 75px;
+  left: 320px;
+  width: 120px;
+}
+
+#link-Celsius,
+#link-Farhenheit {
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+  cursor: default;
+  text-decoration: none;
+}
+
+#temperature {
+  margin-left: 150px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#nowDate {
+  color: #0dcaf0;
+  margin-left: 150px;
+}
+.active {
+  color: #173e43;
+}
+
+.engine {
+  margin: 5px 20px 50px 250px;
+  padding: 12px 170px;
+  border: 2px solid #0dcaf0;
+}
+.btn {
+  margin-left: 20px;
+  padding: 12px 28px;
+}
+
+.card {
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.description:first-letter {
+  text-transform: capitalize;
+}
+
+.card-description {
+  text-transform: capitalize;
+}
+
+.card-text {
+  line-height: 2em;
+  text-align: center;
+}
+
+.card-title {
+  line-height: 1.5em;
+  text-align: center;
+}
+::placeholder {
+  font-style: italic;
+}
+
+.card:hover {
+  border-color: #0dcaf0;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.footer {
+  text-align: right;
+  margin: 35px 200px 20px;
+}
